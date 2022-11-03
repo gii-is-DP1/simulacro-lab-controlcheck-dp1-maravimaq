@@ -5,6 +5,7 @@ import lombok.Setter;
 
 @Getter
 @Setter
+@Entity
 public class ProductType {
     Integer id;
     String name;
